@@ -13,7 +13,7 @@ var checkAnswer = document.querySelector('input[type=text]');
 var value = checkAnswer.value;
 var btn = document.querySelector('input[type=button][value=check]');
 
-btn.onClick = function() {
+btn.onclick = function() {
     value = checkAnswer.value;
     if (value == answer) {
         alert('Your Correct');
@@ -28,5 +28,5 @@ btn.onClick = function() {
     document.getElementById("number1").innerHTML = number1;
     document.getElementById("number2").innerHTML = number2;
 
-    answer = number1 + number2;
+    answer = number1 + number2
 };
