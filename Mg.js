@@ -28,5 +28,5 @@ btn.onClick = function() {
     document.getElementById("number1").innerHTML = number1;
     document.getElementById("number2").innerHTML = number2;
 
-    answer = number1 + number2;
+    answer = number1 + number2
 };
