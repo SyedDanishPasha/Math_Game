@@ -13,7 +13,7 @@ var checkAnswer = document.querySelector('input[type=text]');
 var value = checkAnswer.value;
 var btn = document.querySelector('input[type=button][value=check]');
 
-btn.onClick = function() {
+btn.onclick = function() {
     value = checkAnswer.value;
     if (value == answer) {
         alert('Your Correct');
